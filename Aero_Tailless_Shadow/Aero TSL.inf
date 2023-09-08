@@ -1,0 +1,56 @@
+;Aero Tailless Shadow (large)
+;
+;These cursors are extracted from Vista RTM (Build 6000)
+;Added: Cross & Text cursors + cursor scheme installation files
+;Modifications: Inverted colour, shadows and docked tails :D
+;
+;[/Herby] HerbysTweaks.net
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+[Scheme.Cur]
+aero_arrow_l.cur
+aero_busy_l.ani
+aero_cross_l.cur
+aero_ew_l.cur
+aero_helpsel_l.cur
+aero_link_l.cur
+aero_move_l.cur
+aero_nesw_l.cur
+aero_ns_l.cur
+aero_nwse_l.cur
+aero_pen_l.cur
+aero_text_l.cur
+aero_unavail_l.cur
+aero_up_l.cur
+aero_working_l.ani
+
+[Strings]
+CUR_DIR     = "Cursors\Windows Aero\Tailless Shadow"
+SCHEME_NAME = "Aero Tailless Shadow (large)"
+alternate   = "aero_up_l.cur"
+busy    = "aero_busy_l.ani"
+cross   = "aero_cross_l.cur"
+dgn1    = "aero_nwse_l.cur"
+dgn2    = "aero_nesw_l.cur"
+hand    = "aero_pen_l.cur"
+help    = "aero_helpsel_l.cur"
+horz    = "aero_ew_l.cur"
+link    = "aero_link_l.cur"
+move    = "aero_move_l.cur"
+pointer = "aero_arrow_l.cur"
+text    = "aero_text_l.cur"
+unavailiable = "aero_unavail_l.cur"
+vert    = "aero_ns_l.cur"
+work    = "aero_working_l.ani"
